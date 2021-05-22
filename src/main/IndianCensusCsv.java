@@ -6,15 +6,6 @@ public class IndiaCensusCSV {
 	private String District;
 	private int population2001;
 	private int population2011;
-	
-	
-	public IndiaCensusCSV(String state, String district, int population2001, int population2011) {
-		State = state;
-		District = district;
-		this.population2001 = population2001;
-		this.population2011 = population2011;
-	}
-
 
 	public String getState() {
 		return State;
